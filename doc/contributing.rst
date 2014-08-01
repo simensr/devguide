@@ -36,7 +36,7 @@ You can test them locally.
 For this install python-sphinx and python-matplotlib.
 Then build the pages with::
 
-  make html
+  $ make html
 
 Then point your browser to _build/html/index.html.
 The style is not the same but the content is what you
