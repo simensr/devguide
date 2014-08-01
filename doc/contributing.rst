@@ -23,6 +23,10 @@ With a GitHub account you have two possibilities to edit the sources:
   that your changes are not immediately visible but become so after a team member reviews your changes
   with a mouse click thus integrating them to https://github.com/daltonprogram/devguide.
 
+**Note that the entire documentation including the entire documentation
+source code is public.**
+Do not publish sensitive information and harvestable email addresses.
+
 
 How to locally test changes
 ---------------------------
