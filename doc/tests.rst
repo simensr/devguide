@@ -11,8 +11,8 @@ test mechanisms:
 - Runtest based scripts, see: http://runtest.readthedocs.org
 - CTest
 
-The first two will be phased out. CTest wraps around runtest.  Runtest is for
-individual tests, CTest ties them all together and produces a test runner.  The
+CTest wraps around runtest. Runtest is for
+individual tests. CTest ties them all together and produces a test runner.  The
 preferred way to run tests is through CTest inside the build directory.
 
 You can run all tests::
@@ -35,8 +35,11 @@ to see all options, type::
 
   $ man ctest
 
+To see all labels, browse ``cmake/Tests(LS)DALTON.cmake``.
+
 You can also run tests individually, for this execute the individual python
-``test`` scripts and point it to the correct build directory (try ``./test -h``).
+``test`` scripts and point it to the correct build directory (try ``./test -h``
+to see all options).
 
 FIXME: We should here describe what tests we require to pass before pushing
 anything to master.
